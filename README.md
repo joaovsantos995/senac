@@ -87,7 +87,27 @@ o IFserve para determinar um bloco de introções **deve** ou **não** ser execu
  }
 
 
-
+ double  nota1 , nota2 , media;
+  
+  nota1 = 4;
+  nota2 = 6;
+  media = ( nota1 + nota2) / 2;
+  
+  
+  if(media >=5)
+  {
+  
+      print("aprovadocom media $media");
+  
+  }
+   
+ else 
+ {
+  
+       print("reprovado com media $media");
+  
+  
+  }
 
 
 
