@@ -77,7 +77,7 @@ o IFserve para determinar um bloco de introções **deve** ou **não** ser execu
  ```dart
  string curso = "programador android";
  
- if(corso == "programador android")
+ if(curso == "programador android")
  {
     print("Parabéns, você faz otimas escolhas");
  }
