@@ -110,7 +110,7 @@ o IFserve para determinar um bloco de introções **deve** ou **não** ser execu
   }
 ```
 
-## Aula 3 - lógica com dart
+## Aula 3 - lógica com dart:+1:
 
 Foi importada a *biblioteca* **dart:math** para podermos usar funções matemáticas com potência e raiz quadrada,
 no exemploabaixo foi usada a função **math.sqrt()** para calcular a raiz de delta .
@@ -119,14 +119,14 @@ no exemploabaixo foi usada a função **math.sqrt()** para calcular a raiz de de
 - foram usados 2 if, o 1º para o acesso através da palavra mágica *shazam* e o 2º para fazer a equação.
 - cada **if** tem seu próprio **else** , daí a importância de *identar* , organizar o código com **TABS**
 
-### Exemplos usando math 
+### Exemplos usando math :+1:
 
 ```dart
 print(math.sqrt(9)); //exibe a ariz de 9
 print(math.pi); //exibe o valor de pi
 print(math.pow(2,7)); // exibe o resultado de 2 elevado a 7
 ```
-###Exemplo usando if dentro de if(login e equação de 2º grau)
+###Exemplo usando if dentro de if(login e equação de 2º grau):+1::+1:
 ```dart
 
 import 'dart:math' as math;
