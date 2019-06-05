@@ -217,6 +217,10 @@ void main() {
   {
     print("pratense");
   
+   else 
+  {
+    print("Cidade não cadastrada.");
+  }
   
 
 
