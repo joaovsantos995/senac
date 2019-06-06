@@ -221,54 +221,60 @@ void main() {
   {
     print("Cidade não cadastrada.");
   }
+ ```
+
+
+
+ "somente será VERDADE se todas as expressões forem VERDADE ".  
+
+OU (OR)||
+
+"somente será FALSO se todas as expressões forem FALSAS"
+
+### aula 4 - operador lógicos
+
+###operador lógicos e (AND) &&
+
+*"somente sera verdade se todas as expreções forem verdade".*
+
+##
+OU (OR)||
+
+*"somente sera falso se todos as expreções fprem FALSAS".*
+
+
+
+
+void main() {
+ 
   
+bool var_a, var_b;
+
+var_a = true;
+  
+var_b = false;  
+
+print((!var_a && var_a) || (var_b || !var_b));
+
+
+ int numero = 10; 
+  
+  if(var_a == var_b)
+  
+  {
+    numero = 666;
+  }
+  else
+  {
+    numero = numero + 1;
+  }
+  
+  print(numero);
+ 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
 
