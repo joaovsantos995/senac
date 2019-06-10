@@ -270,11 +270,74 @@ print((!var_a && var_a) || (var_b || !var_b));
   }
   
   print(numero);
+ }
+
+### AULA 5 - FUNÇÕES
+
+
+//trabalhos com FUNÇÕES
+void main() {
+
+ print("minha calculadora =)  \n-----------------"); 
  
 
+double  n1 , n2;
 
 
+ n1 = 10;
+ n2 = 5;
+
+//Essa é a chamada da função
+  calcular(n1, n2, "+");
+	calcular(n1, n2, "-");
+  calcular(n1, n2, "*");
+  calcular(n1, n2, "/");
 }
+
+/*
+*como criar função
+*
+*primeiro, colacamos o retorno da função (tipo)
+*depois colocamos o NOME da função
+*depois dos nomes colocamos os PARENTESES. dentro dos parenteses, 
+"podemos" colocar PARÂMETROS. (pode ter ou não)
+*por ultimo, colocamos abertura e fechamento de CHAVES. 
+dentro das chaves, vai o códigos de função.
+*
+*IMPORTANTE: só criar a função não serve NADA.
+*A gente tem que CHAMAR essa função no main.
+*/
+
+void calcular(double novonumero1, double novonumero2, String operacao){
+  print("\nquanto é $novonumero1 $operacao $novonumero2?");
+double resposta =  novonumero1  / novonumero2 ;
+
+  if (operacao == "+"){
+    resposta =  novonumero1  + novonumero2;
+  }
+ 		else if (operacao == "-"){
+     resposta =  novonumero1 - novonumero2; 
+    }
+      else if (operacao == "/"){
+     resposta =  novonumero1  / novonumero2;   
+   }
+  else if (operacao == "*"){
+     resposta =  novonumero1 * novonumero2; 
+    }
+  else{
+    resposta = 0;
+    
+   }
+  
+ print(" o resultado é: $resposta"); 
+}
+
+
+
+
+
+
+
 
 
 
