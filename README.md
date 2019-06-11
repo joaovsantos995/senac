@@ -332,16 +332,20 @@ double resposta =  novonumero1  / novonumero2 ;
  print(" o resultado é: $resposta"); 
 }
 
+```
 
 
+## Aula flutter
+
+ ** primeiro contato: **
+
+entrar em flutter.dev (ou flutter.io) e procurar o local para começar a utilizar o flutter (get started)
+seguir os passos de intalação, que continuem basicamente de:
+-baixar o SKD do flutter e colocá-lo na pasta "c:\src\flutter"
+-baixar e instalar o andride studio
+-configurar o plugin do flutter no android studio
+-rodar o comum "flutter doctor"no prompt de comando para certificar que esta tudo ok
 
 
-
-
-
-
-
-
-
-
-
+```
+**CRIAÇÃO DO PRIMEIRO APP**
