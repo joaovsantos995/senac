@@ -1,4 +1,74 @@
 
+##Criação de menu
+
+```dart
+
+import 'package:flutter/material.dart';
+
+
+void main()
+{
+  runApp(
+    MaterialApp(
+      home: Scaffold(
+        drawer: Drawer(
+          child: ListView(
+            children: <Widget>[
+                UserAccountsDrawerHeader(
+          accountName: Text("joão santos",
+
+            style: TextStyle(color: Colors.amberAccent,
+                fontSize: 19.0),
+          ),
+          accountEmail:
+              Text("joão.vsdias995@gmail.com"),
+          currentAccountPicture:
+          Image.network('https://i.pinimg.com/236x/74/9e/46/749e46dd956ab44445261ac7d0512b02--art-case-star-art.jpg'),
+          decoration: BoxDecoration(
+              color: Colors.deepPurple
+                  ),
+                ),
+              ListTile(
+                title: Text("Menu 1"),
+                trailing: Icon(Icons.account_box),
+              ),
+                ListTile(
+                title: Text("Menu 2 "),
+                  trailing: Icon(Icons.share),
+
+              )
+             ]
+            )
+          ),
+          appBar:AppBar(
+             title: Text ("Título do App"),
+             centerTitle: true,
+            backgroundColor: Colors.amber
+           ),
+          body: TextField(
+          ),
+      ),
+    ),
+
+  );
+
+}
+
+Scaffold: é uma classe importante em Flutter,pois criar a estrutura básica de layout do widget material disign.
+
+-permite montar a estrutura básica de uma tela,
+adicionar itens como:
+- AppBar,
+- FloatingActionButton
+- BottomNavigationBar
+- Drawer
+- além do próprio conteúdo da tela
+
+- AppBar:(é uma barra superior acima do app)
+- FloatingActionButton:(é um tipo de vareavel usado para velores decimais com virgula)
+- BottomNavigationBar(é um menu fixo embaixo na tela  )
+- Drawer(é um menu utilizado para a interação dos usuarios)
+- 
 
 
 
@@ -7,6 +77,9 @@
 
 
 
+
+
+```
 
 
 
