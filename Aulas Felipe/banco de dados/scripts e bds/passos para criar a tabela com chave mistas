@@ -1,0 +1,23 @@
+/*
+passos para criar tabela com chave primaria e estrangeira na mesma coluna 
+1)definir o nome da tabela 
+2)defina os campos
+3)criar a chave primaria 
+4)referenciar as chaves estrangeiras
+*/
+--1)
+CREATE TABLE emprestam (    
+--2)
+    es_pessoa INTEGER NOT NULL,
+    es_livro INTEGER  NOT NULL,
+    hora DATE,
+    data DATE,
+    
+--3)
+    PRIMARY KEY (es_pessoa, es_livro),
+    
+    --4)
+    FOREIGN KEY (es_livro)  REFERENCES livro(id_livro),
+    FOREIGN KEY (es_pessoa) REFERENCES pessoa(id_pessoa)
+    
+);

@@ -1,0 +1,7 @@
+CREATE TABLE etsuda (
+    es_curso INTEGER  NOT NULL,
+    es_ra    INTEGER  NOT NULL,
+    PRIMARY KEY (ES_CURSO, ES_RA),
+ FOREIGN KEY(ES_CURSO)REFERENCES curso (id_curso),
+FOREIGN KEY(ES_RA) REFERENCES aluno (ra) 
+);
